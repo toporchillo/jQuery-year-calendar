@@ -1,0 +1,219 @@
+#year-calendar {
+	margin-bottom: 15px;
+}
+
+#year-calendar .label-calendar {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #D9D9D9;
+    color: #666666;
+    float: left;
+    font-size: 12px;
+    font-weight: 100;
+    height: 40px;
+    margin: 1px 0 0 1px;
+    position: relative;
+    text-align: left;
+    text-shadow: none;
+    width: 2.7%;
+	padding: 1px 0 0 1px;
+}
+
+#year-calendar #status {
+	float: right;
+	width: 40%;
+}
+
+#year-calendar #selection {
+	margin-right: 30px;
+}
+
+#year-calendar #hover {
+	display: none;
+}
+
+#year-calendar .year {
+	font-size: 40px;
+	font-weight: 100;
+	color: #333333;
+	float: left;
+}
+#year-calendar #arrows {
+	margin-bottom: 15px;
+}
+
+#year-calendar #arrows .next {
+    font-size: 40px;
+	cursor: pointer;
+	color: #333333;
+}
+#year-calendar #arrows .prev {
+    float: left;
+    font-size: 40px;
+	cursor: pointer;
+	color: #333333;
+}
+
+#year-calendar .day:hover {
+    box-shadow: 1px 1px 7px #999999;
+    z-index: 100;
+}
+
+#year-calendar .label-calendar.today {
+    background: none repeat scroll 0 0 #594C66 !important;
+    box-shadow: 2px 2px 20px;
+    color: white;
+    text-shadow: none;
+}
+
+#year-calendar .day.weekend {
+    background: none repeat scroll 0 0 #D9D9D9;
+    color: red;
+}
+
+#year-calendar .day.selected {
+	background: blue!important;
+	color:white!important;
+}
+
+
+#year-calendar .label-calendar.bold {
+	background: none repeat scroll 0 0 #ABB4B9;
+	clear: both;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 1px 0 0 1px;
+	padding: 1px 0 0 1px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 10%;
+	line-height: 40px;
+}
+#year-calendar .label-calendar.header {
+	background: none repeat scroll 0 0 #ABB4B9;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 1px 0 0 1px;
+	padding: 1px 0 0 1px;
+	text-align: center;
+	line-height: 37px;
+}
+
+#year-calendar .yearbrake {
+    border-bottom: 1px dashed #999999;
+    margin: 7px 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#legend .label-calendar {
+	width: 30px;
+	height: 30px;
+}
+#legend .day {
+	border: 1px solid !important;
+}
+#legend .day:hover {
+	border: 1px solid !important;
+}
+#legend {
+	margin-top: 20px;
+}
+
+#legend .legend-item {
+	float: left;
+	margin-right: 20px;
+}
+
+#legend .legend-item span {
+	padding: 0 5px;
+	line-height: 35px;
+}
+
+#year-calendar .markers {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	background-color: #FF5000;
+	border-radius: 0 3px 0 12px;
+	cursor: pointer;
+}
+
+#year-calendar .markers.selected {
+    background-color: rgba(0, 245, 255, 0.57);
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 3px;
+}
+
+
+#year-calendar .event {
+    margin-left: -4px;
+    margin-right: -1px;
+}
+#year-calendar .events {
+    background-color: rgba(38, 78, 150, 0.56);
+    bottom: 0;
+    cursor: pointer;
+    height: 13px;
+    left: 4px;
+    position: absolute;
+    right: 0;
+}
+
+#year-calendar .events.type-1 {
+    background-color: rgba(250, 78, 38, 0.56);
+}
+#year-calendar .events.type-2 {
+    background-color: rgba(250, 250, 38, 0.56);
+}
+#year-calendar .events.type-3 {
+    background-color: rgba(38, 78, 250, 0.56);
+}
+#year-calendar .events.type-4 {
+    background-color: rgba(38, 250, 78, 0.56);
+}
+
+#year-calendar .event-start {
+    border-radius: 7px 0 0 7px;
+    bottom: 0;
+    left: auto;
+    position: absolute;
+    right: -1px;
+    width: 40%;
+}
+#year-calendar .event-end {
+    border-radius: 0 7px 7px 0;
+    left: 0;
+    margin-top: 14px;
+    position: absolute;
+    width: 40%;
+}
+#year-calendar .events.selected {
+    background-color: rgba(0, 245, 255, 0.57);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 3px;
+}
+
+#year-calendar .event-end.selected {
+    background-color: rgba(0, 245, 255, 0.57);
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 3px;
+}
+
+#year-calendar .event-start.selected {
+    background-color: rgba(0, 245, 255, 0.57);
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 3px;
+}
