@@ -130,9 +130,10 @@
 			$_arrows = $('#arrows');
 			// Let's append the year
 			$_arrows.append('<div class=\"prev\ btn">&laquo;</div>');
-			$.each(the_year.toString(), function(i,o) {
+			for (var i=0; i<the_year.toString().length; i++) {
+				var o = the_year.toString()[i];
 				$_arrows.append('<div class=\"year\">' + o + '</div>');
-			});
+			}
 			$_arrows.append('<div class=\"next btn\">&raquo;</div>');
 
 			//
