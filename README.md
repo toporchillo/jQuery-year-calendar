@@ -1,4 +1,4 @@
-<h1>Hello, Alexander!</h1>
+<h1>Hello, Alexander! That's me again</h1>
 <h1>jQuery year calendar</h1>
 JavaScript event calendar which displays whole year. It supports day colorifying, day markers, events.
 
